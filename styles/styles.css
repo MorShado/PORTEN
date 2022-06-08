@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "Jaffna";
+  src: url("../assets/fonts/postnobillsjaffna/PostNoBillsJaffna-Regular.ttf")
+    format("opentype");
+}
+
 body {
   padding: 0;
   margin: 0;
-  max-width: 1920px;
   background-color: black;
 }
 
@@ -13,11 +18,11 @@ body {
 
 .block-row {
   display: flex;
-  max-width: 1920px;
+  max-width: 1200px;
   height: 44px;
-  line-height: normal;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
 }
 
 .block-column {
@@ -27,9 +32,19 @@ body {
 }
 
 .contact-type {
-  padding-left: 435px;
+  display: flex;
 }
 
 .registration {
-  padding-right: 405px;
+}
+
+.phone-icon {
+  margin-right: 15px;
+}
+
+.title {
+  font-family: "Jaffna";
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
 }
