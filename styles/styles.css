@@ -15,7 +15,6 @@ body {
   display: flex;
   max-width: 1920px;
   height: 44px;
-  position: relative;
   line-height: normal;
   justify-content: space-between;
   align-items: center;
