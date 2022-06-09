@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "PT Sans";
-  src: url("../assets/fonts/PT\ Sans/.ttf");
+  src: url("../assets/fonts/PT\ Sans/.ttf") format("opentype");
 }
 
 body {
@@ -44,6 +44,10 @@ body {
 }
 
 .registration {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .phone-icon {
